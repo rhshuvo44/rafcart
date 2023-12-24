@@ -602,6 +602,14 @@ video {
   top: 0.75rem;
 }
 
+.right-3{
+  right: 0.75rem;
+}
+
+.-right-3{
+  right: -0.75rem;
+}
+
 .flex{
   display: flex;
 }
