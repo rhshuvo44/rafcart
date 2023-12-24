@@ -446,6 +446,19 @@ video {
   display: none;
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+  h2,
+  h3,
+  h4,
+  h4,
+  h5{
+  font-family: 'Roboto', sans-serif;
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -586,6 +599,10 @@ video {
   position: relative;
 }
 
+.-right-3{
+  right: -0.75rem;
+}
+
 .-top-1{
   top: -0.25rem;
 }
@@ -598,16 +615,8 @@ video {
   right: 0px;
 }
 
-.top-3{
-  top: 0.75rem;
-}
-
-.right-3{
-  right: 0.75rem;
-}
-
-.-right-3{
-  right: -0.75rem;
+.ml-2{
+  margin-left: 0.5rem;
 }
 
 .flex{
@@ -634,6 +643,14 @@ video {
   max-width: 100%;
 }
 
+.flex-grow{
+  flex-grow: 1;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .items-center{
   align-items: center;
 }
@@ -650,6 +667,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-6 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-full{
@@ -679,6 +702,11 @@ video {
   border-color: rgb(253 61 87 / var(--tw-border-opacity));
 }
 
+.bg-gray-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
 .bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(253 61 87 / var(--tw-bg-opacity));
@@ -687,6 +715,10 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-8{
+  padding: 2rem;
 }
 
 .px-8{
@@ -726,8 +758,17 @@ video {
   line-height: 1rem;
 }
 
+.capitalize{
+  text-transform: capitalize;
+}
+
 .leading-3{
   line-height: .75rem;
+}
+
+.text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .text-gray-400{
@@ -766,6 +807,11 @@ video {
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(253 61 87 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus{
